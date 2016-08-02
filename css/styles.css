@@ -1,0 +1,526 @@
+@charset "UTF-8";
+/**
+ * @file
+ * Styles are organised using the SMACSS technique. @see http://smacss.com/book/
+ */
+/* Import Sass mixins, variables, Compass modules, etc. */
+/**
+ * @file
+ * cecs_theme variables.
+ */
+/* Media queries based on ANU styles version 4.12 (2014-11-26). */
+/* HTML element (SMACSS base) rules */
+/* line 5, ../scss/base/_base.scss */
+figure > figcaption {
+  margin-top: 5px;
+}
+
+/* line 9, ../scss/base/_base.scss */
+figure img {
+  display: block;
+}
+
+/* line 13, ../scss/base/_base.scss */
+select {
+  max-width: 100%;
+}
+
+/* Components */
+/**
+ * @file
+ * Node.
+ */
+/**
+ * @file
+ * Node: acton_highlight.
+ */
+/* line 6, ../scss/components/node/_node--acton-highlight.scss */
+
+.medium{
+font-size: 1.08em;
+}
+.highlight-box {
+  height: 160px;
+  overflow: hidden;
+}
+
+/* line 11, ../scss/components/node/_node--acton-highlight.scss */
+.highlight-profile {
+  height: 300px;
+  overflow: hidden;
+}
+.share-padding{
+  padding-left:5px;
+  padding-top:2px;
+}
+
+.share-paddingright{
+  padding-right:5px;
+}
+
+/* student profile */
+.tile-profile{
+  width:155px;
+  height:130px;
+  float:left;
+}
+
+.tile-profilepadding{
+padding-right:19px;
+}
+
+.tile-profilenopadding{
+padding-right:0px !important;
+}
+.tile-container{
+  position relative;
+}
+
+
+.tile-textbox{
+  background-color: #ACC0C6;
+  opacity: 0.90;
+  filter: alpha(opacity=90);
+  font-size: 0.9em;
+  line-height: 1.2em;
+  left: 0px;
+  width: 100%;
+  margin-top: -32px;
+  font-weight: bold;
+}
+
+.tile-wide-profile{
+  width:440px;
+/*  height:100%;*/
+  position: absolute;
+}
+
+
+.tile-wide-textbox{
+  overflow: hidden;
+  opacity: 0.70;
+  top: 0;
+  width: 50%;
+  height: 220px;
+  background-color: #ACC0C6;
+/*  margin-top: 23px;*/
+}
+
+
+/**
+ * @file
+ * Fieldable panel pane.
+ */
+/**
+ * @file
+ * Fieldable panel pane: cecs_tile.
+ */
+/* line 10, ../scss/components/fpp/_fpp--cecs-tile.scss */
+.pane-bundle-cecs-tile .pane-content {
+  position: relative;
+}
+/* line 13, ../scss/components/fpp/_fpp--cecs-tile.scss */
+.pane-bundle-cecs-tile .field-name-field-cecs-body {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFAQMAAAC3obSmAAAAA1BMVEWswMbO5SkVAAAAAXRSTlPlkIbOkQAAAAxJREFUeJxjYmCCQgAARgALnYW8OgAAAABJRU5ErkJggg==');
+  background: rgba(172, 192, 198, 0.9);
+}
+/* line 20, ../scss/components/fpp/_fpp--cecs-tile.scss */
+.pane-bundle-cecs-tile .field-name-field-cecs-body .field-item {
+  padding: 10px;
+  font-size: 0.9em;
+}
+/* line 24, ../scss/components/fpp/_fpp--cecs-tile.scss */
+.pane-bundle-cecs-tile .field-name-field-cecs-body .field-item a {
+  color: #000;
+}
+/* line 26, ../scss/components/fpp/_fpp--cecs-tile.scss */
+.pane-bundle-cecs-tile .field-name-field-cecs-body .field-item a:hover {
+  color: #fff;
+}
+/* line 31, ../scss/components/fpp/_fpp--cecs-tile.scss */
+.pane-bundle-cecs-tile .field-name-field-cecs-body .field-item h2, .pane-bundle-cecs-tile .field-name-field-cecs-body .field-item h3, .pane-bundle-cecs-tile .field-name-field-cecs-body .field-item h4, .pane-bundle-cecs-tile .field-name-field-cecs-body .field-item h5, .pane-bundle-cecs-tile .field-name-field-cecs-body .field-item h6 {
+  font-size: 1em;
+  color: #000;
+}
+/* line 34, ../scss/components/fpp/_fpp--cecs-tile.scss */
+.pane-bundle-cecs-tile .field-name-field-cecs-body .field-item h2 a, .pane-bundle-cecs-tile .field-name-field-cecs-body .field-item h3 a, .pane-bundle-cecs-tile .field-name-field-cecs-body .field-item h4 a, .pane-bundle-cecs-tile .field-name-field-cecs-body .field-item h5 a, .pane-bundle-cecs-tile .field-name-field-cecs-body .field-item h6 a {
+  text-decoration: none;
+}
+/* line 42, ../scss/components/fpp/_fpp--cecs-tile.scss */
+.pane-bundle-cecs-tile .field-name-field-cecs-image img {
+  display: block;
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 959px) {
+  /* line 51, ../scss/components/fpp/_fpp--cecs-tile.scss */
+  .pane-bundle-cecs-tile .field-name-field-cecs-body {
+    position: static;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  /* line 61, ../scss/components/fpp/_fpp--cecs-tile.scss */
+  .pane-bundle-cecs-tile .field-name-field-cecs-body {
+    position: static;
+    width: 100%;
+  }
+}
+
+/**
+ * @file
+ * ANU Icons - Small size – 16x16px.
+ */
+/* line 10, ../scss/components/misc/_icon-small.scss */
+[class*="icon-small-"] {
+  padding-left: 20px;
+  background-repeat: no-repeat;
+}
+
+/* line 43, ../scss/components/misc/_icon-small.scss */
+.icon-small-information {
+  background-image: url("//style.anu.edu.au/_anu/images/icons/silk/information.png");
+}
+
+/* line 43, ../scss/components/misc/_icon-small.scss */
+.icon-small-help {
+  background-image: url("//style.anu.edu.au/_anu/images/icons/silk/help.png");
+}
+
+/* line 43, ../scss/components/misc/_icon-small.scss */
+.icon-small-exclaimation {
+  background-image: url("//style.anu.edu.au/_anu/images/icons/silk/exclaimation.png");
+}
+
+/* line 43, ../scss/components/misc/_icon-small.scss */
+.icon-small-error {
+  background-image: url("//style.anu.edu.au/_anu/images/icons/silk/error.png");
+}
+
+/* line 43, ../scss/components/misc/_icon-small.scss */
+.icon-small-accept {
+  background-image: url("//style.anu.edu.au/_anu/images/icons/silk/accept.png");
+}
+
+/* line 43, ../scss/components/misc/_icon-small.scss */
+.icon-small-cancel {
+  background-image: url("//style.anu.edu.au/_anu/images/icons/silk/cancel.png");
+}
+
+/* line 43, ../scss/components/misc/_icon-small.scss */
+.icon-small-tick {
+  background-image: url("//style.anu.edu.au/_anu/images/icons/silk/tick.png");
+}
+
+/* line 43, ../scss/components/misc/_icon-small.scss */
+.icon-small-cross {
+  background-image: url("//style.anu.edu.au/_anu/images/icons/silk/cross.png");
+}
+
+/* line 43, ../scss/components/misc/_icon-small.scss */
+.icon-small-pencil {
+  background-image: url("//style.anu.edu.au/_anu/images/icons/silk/pencil.png");
+}
+
+/* line 43, ../scss/components/misc/_icon-small.scss */
+.icon-small-magifier_zoom_out {
+  background-image: url("//style.anu.edu.au/_anu/images/icons/silk/magifier_zoom_out.png");
+}
+
+/* line 43, ../scss/components/misc/_icon-small.scss */
+.icon-small-magnifier_zoom_in {
+  background-image: url("//style.anu.edu.au/_anu/images/icons/silk/magnifier_zoom_in.png");
+}
+
+/* line 43, ../scss/components/misc/_icon-small.scss */
+.icon-small-zoom {
+  background-image: url("//style.anu.edu.au/_anu/images/icons/silk/zoom.png");
+}
+
+/* line 43, ../scss/components/misc/_icon-small.scss */
+.icon-small-link {
+  background-image: url("//style.anu.edu.au/_anu/images/icons/silk/link.png");
+}
+
+/* line 43, ../scss/components/misc/_icon-small.scss */
+.icon-small-email {
+  background-image: url("//style.anu.edu.au/_anu/images/icons/silk/email.png");
+}
+
+/* line 43, ../scss/components/misc/_icon-small.scss */
+.icon-small-calendar {
+  background-image: url("//style.anu.edu.au/_anu/images/icons/silk/calendar.png");
+}
+
+/* line 43, ../scss/components/misc/_icon-small.scss */
+.icon-small-printer {
+  background-image: url("//style.anu.edu.au/_anu/images/icons/silk/printer.png");
+}
+
+/* line 43, ../scss/components/misc/_icon-small.scss */
+.icon-small-telephone {
+  background-image: url("//style.anu.edu.au/_anu/images/icons/silk/telephone.png");
+}
+
+/* line 43, ../scss/components/misc/_icon-small.scss */
+.icon-small-control_play_blue {
+  background-image: url("//style.anu.edu.au/_anu/images/icons/silk/control_play_blue.png");
+}
+
+/* line 43, ../scss/components/misc/_icon-small.scss */
+.icon-small-control_pause_blue {
+  background-image: url("//style.anu.edu.au/_anu/images/icons/silk/control_pause_blue.png");
+}
+
+/* line 43, ../scss/components/misc/_icon-small.scss */
+.icon-small-control_stop_blue {
+  background-image: url("//style.anu.edu.au/_anu/images/icons/silk/control_stop_blue.png");
+}
+
+/* line 43, ../scss/components/misc/_icon-small.scss */
+.icon-small-control_start_blue {
+  background-image: url("//style.anu.edu.au/_anu/images/icons/silk/control_start_blue.png");
+}
+
+/* line 43, ../scss/components/misc/_icon-small.scss */
+.icon-small-control_rewind_blue {
+  background-image: url("//style.anu.edu.au/_anu/images/icons/silk/control_rewind_blue.png");
+}
+
+/* line 43, ../scss/components/misc/_icon-small.scss */
+.icon-small-control_fastforward_blue {
+  background-image: url("//style.anu.edu.au/_anu/images/icons/silk/control_fastforward_blue.png");
+}
+
+/* line 43, ../scss/components/misc/_icon-small.scss */
+.icon-small-control_end_blue {
+  background-image: url("//style.anu.edu.au/_anu/images/icons/silk/control_end_blue.png");
+}
+
+/* line 43, ../scss/components/misc/_icon-small.scss */
+.icon-small-control_repeat_blue {
+  background-image: url("//style.anu.edu.au/_anu/images/icons/silk/control_repeat_blue.png");
+}
+
+/* line 3, ../scss/components/misc/_panels.scss */
+.panels-cecs-box-style-alt .box h2.pane-title {
+  text-transform: initial;
+  font-weight: bold;
+  font-size: 1em;
+}
+/* line 9, ../scss/components/misc/_panels.scss */
+.panels-cecs-box-style-alt .pane-content {
+  padding: 0;
+  background-color: #A71930;
+}
+/* line 12, ../scss/components/misc/_panels.scss */
+.panels-cecs-box-style-alt .pane-content p {
+  margin: 0;
+  padding: 5px 5px 5px 7px;
+  background-color: #A71930;
+  line-height: 1.4em;
+  color: #FFF;
+}
+/* line 19, ../scss/components/misc/_panels.scss */
+.panels-cecs-box-style-alt .pane-content ul {
+  padding-left: 0;
+  margin: 0;
+}
+/* line 22, ../scss/components/misc/_panels.scss */
+.panels-cecs-box-style-alt .pane-content ul li {
+  list-style: none;
+}
+/* line 24, ../scss/components/misc/_panels.scss */
+.panels-cecs-box-style-alt .pane-content ul li:hover, .panels-cecs-box-style-alt .pane-content ul li:focus {
+  background-color: #D38C98;
+}
+/* line 27, ../scss/components/misc/_panels.scss */
+.panels-cecs-box-style-alt .pane-content ul li:hover a,
+.panels-cecs-box-style-alt .pane-content ul li:hover a:after, .panels-cecs-box-style-alt .pane-content ul li:focus a,
+.panels-cecs-box-style-alt .pane-content ul li:focus a:after {
+  color: #FFF;
+}
+/* line 32, ../scss/components/misc/_panels.scss */
+.panels-cecs-box-style-alt .pane-content ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px 10px 10px;
+  margin: 0;
+  border-top: solid 1px #FFF;
+  color: #fff;
+}
+/* line 39, ../scss/components/misc/_panels.scss */
+.panels-cecs-box-style-alt .pane-content ul li a:after {
+  content: "»";
+  font-size: 1.5em;
+  float: right;
+  color: #FFF;
+}
+
+/* line 3, ../scss/components/misc/_panels.scss */
+.panels-anu-collapsible-box-style-alt .box h2.pane-title {
+  text-transform: initial;
+  font-weight: bold;
+  font-size: 1em;
+}
+.panels-anu-collapsible-box-style-alt .box h2.hdr-uni {
+  padding: 0;
+  margin: 10px 0 5px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.9em;
+  font-weight: normal
+}
+/* line 9, ../scss/components/misc/_panels.scss */
+.panels-anu-collapsible-box-style-alt .pane-content {
+  padding: 0;
+  background-color: #333333;
+}
+/* line 12, ../scss/components/misc/_panels.scss */
+.panels-anu-collapsible-box-style-alt .pane-content p {
+  margin: 0;
+  padding: 5px 5px 5px 7px;
+  background-color: #333333;
+  line-height: 1.4em;
+  color: #FFF;
+}
+/* line 19, ../scss/components/misc/_panels.scss */
+.panels-anu-collapsible-box-style-alt .pane-content ul {
+  padding-left: 0;
+  margin: 0;
+}
+/* line 22, ../scss/components/misc/_panels.scss */
+.panels-anu-collapsible-box-style-alt .pane-content ul li {
+  list-style: none;
+}
+/* line 24, ../scss/components/misc/_panels.scss */
+.panels-anu-collapsible-box-style-alt .pane-content ul li:hover, .panels-cecs-box-style-alt .pane-content ul li:focus {
+  background-color: #666666;
+}
+/* line 27, ../scss/components/misc/_panels.scss */
+.panels-anu-collapsible-box-style-alt .pane-content ul li:hover a,
+.panels-anu-collapsible-box-style-alt .pane-content ul li:hover a:after, .panels-cecs-box-style-alt .pane-content ul li:focus a,
+.panels-cecs-box-style-alt .pane-content ul li:focus a:after {
+  color: #FFF;
+}
+/* line 32, ../scss/components/misc/_panels.scss */
+.panels-anu-collapsible-box-style-alt .pane-content ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px 10px 10px;
+  margin: 0;
+  border-top: solid 1px #FFF;
+  color: #fff;
+}
+/* line 39, ../scss/components/misc/_panels.scss */
+.panels-anu-collapsible-box-style-alt .pane-content ul li a:after {
+  content: "»";
+  font-size: 1.5em;
+  float: right;
+  color: #FFF;}
+
+/* Hacks */
+/**
+ * @file
+ * Hacks.
+ * This file may be used to provide temporary hot-fixes for style issues that
+ * you plan to properly implement as components at a later point in time.
+ */
+/* jquery_ui_filter styles. */
+/* As per: http://asiapacific.anu.edu.au/students/graduate-research */
+/* Retrieved: 3 Dec 2014 */
+/* line 11, ../scss/_hacks.scss */
+.ui-widget-content a {
+  color: #4C6E78 !important;
+}
+
+/* line 15, ../scss/_hacks.scss */
+.ui-widget-content a:hover {
+  color: #6C4D23 !important;
+}
+
+/* line 19, ../scss/_hacks.scss */
+.ui-accordion-header a img {
+  vertical-align: middle;
+}
+
+/* line 23, ../scss/_hacks.scss */
+.ui-widget {
+  font-size: inherit;
+  font-family: inherit;
+}
+
+/* Panel pane - views content pane contextual links workaround */
+/* Contextual links only display if there is a title to output */
+/* Hide the title (it should not be in markup) so the contextual links show */
+/* line 31, ../scss/_hacks.scss */
+.no-title-contextual-links > .pane-title {
+  display: none;
+}
+
+/* image caption for group page- added by telawat @ 24-03-2015 */
+
+.img-home {
+position: relative;
+}
+
+.img-home img {
+vertical-align: bottom;
+}
+
+.img-caption {
+overflow: hidden;
+vertical-align: bottom;
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+background: rgb(0, 0, 0);
+background: rgba(0, 0, 0, 0.68);
+color: white;
+text-align: center;
+padding: 10px 15px 5px 5px;
+line-height: 1.2em;
+}
+
+.img-caption a, .img-caption a:hover, .img-caption a:visited{
+color: #fff;
+opacity:1 !important;
+}
+
+/*added by Telawat to have no border for fieldsets*/
+.acton #body fieldset {
+  border: 0px;
+  padding: 10px 0 10px;
+  margin: 20px 0 10px;
+/*  border-bottom:1px solid #CCCCCC;*/
+}
+
+
+.acton #body fieldset .fieldset-wrapper {
+  padding: 0;
+border-bottom:0;
+}
+
+.acton #body legend {
+  padding: 0;
+  margin: 0;
+  width:94%;
+}
+
+html.js fieldset.collapsed .fieldset-legend {
+  background-position: 145px 50%;
+  border-bottom:1px solid #CCCCCC;
+}
+html.js fieldset.collapsible .fieldset-legend {
+  background-position: 143px 65%;
+  padding-left:0;
+  border-bottom:1px solid #CCCCCC;
+}
+

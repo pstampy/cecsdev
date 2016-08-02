@@ -1,0 +1,20 @@
+/home/cecs/.rvm/rubies/ruby-2.1.5/bin/ruby -r ./siteconf20141130-17323-1ww2ae0.rb extconf.rb 
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling yajl_buf.c
+compiling yajl.c
+compiling yajl_gen.c
+compiling yajl_alloc.c
+compiling yajl_ext.c
+compiling yajl_version.c
+compiling yajl_parser.c
+compiling yajl_encode.c
+compiling yajl_lex.c
+linking shared-object yajl/yajl.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 yajl.so ./.gem.20141130-17323-141z8f2/yajl
+installing default yajl libraries

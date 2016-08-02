@@ -1,0 +1,33 @@
+/**
+ * @file
+ * Hacks.
+ * This file may be used to provide temporary hot-fixes for style issues that
+ * you plan to properly implement as components at a later point in time.
+ */
+
+/* jquery_ui_filter styles. */
+/* As per: http://asiapacific.anu.edu.au/students/graduate-research */
+/* Retrieved: 3 Dec 2014 */
+.ui-widget-content a {
+  color: #4C6E78 !important;
+}
+
+.ui-widget-content a:hover {
+  color :#6C4D23 !important;
+}
+
+.ui-accordion-header a img {
+  vertical-align: middle;
+}
+
+.ui-widget {
+  font-size: inherit;
+  font-family: inherit;
+}
+
+/* Panel pane - views content pane contextual links workaround */
+/* Contextual links only display if there is a title to output */
+/* Hide the title (it should not be in markup) so the contextual links show */
+.no-title-contextual-links > .pane-title {
+  display: none;
+}

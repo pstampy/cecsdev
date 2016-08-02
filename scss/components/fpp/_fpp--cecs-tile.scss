@@ -1,0 +1,66 @@
+/**
+ * @file
+ * Fieldable panel pane: cecs_tile.
+ */
+
+.pane-bundle-cecs-tile {}
+
+.pane-bundle-cecs-tile {
+
+  .pane-content {
+    position: relative;
+  }
+  .field-name-field-cecs-body {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    @include rgba-background-inline(rgba(#ACC0C6, 0.9));
+    .field-item {
+      padding: 10px;
+      font-size: 0.9em;
+      // Text styles.
+      a {
+        color: #000;
+        &:hover {
+          color: #fff;
+        }
+      }
+
+      h2, h3, h4, h5, h6 {
+        font-size: 1em;
+        color: #000;
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+
+  }
+  .field-name-field-cecs-image {
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+}
+
+.pane-bundle-cecs-tile {
+  @media #{$lg} {
+    .field-name-field-cecs-body {
+      position: static;
+      width: 100%;
+    }
+  }
+}
+
+
+.pane-bundle-cecs-tile {
+  @media #{$sm} {
+    .field-name-field-cecs-body {
+      position: static;
+      width: 100%;
+    }
+  }
+}

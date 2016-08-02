@@ -1,0 +1,46 @@
+/**
+ * @file
+ * ANU Icons - Small size – 16x16px.
+ */
+$url: '//style.anu.edu.au/_anu/images/icons/silk/';
+$extension: '.png';
+
+$class-prefix: "icon-small-";
+
+[class*="#{$class-prefix}"] {
+  padding-left: 20px;
+  background-repeat: no-repeat;
+}
+
+$icon-names:
+  information
+  help
+  exclaimation
+  error
+  accept
+  cancel
+  tick
+  cross
+  pencil
+  magifier_zoom_out
+  magnifier_zoom_in
+  zoom
+  link
+  email
+  calendar
+  printer
+  telephone
+  control_play_blue
+  control_pause_blue
+  control_stop_blue
+  control_start_blue
+  control_rewind_blue
+  control_fastforward_blue
+  control_end_blue
+  control_repeat_blue;
+
+@each $icon-name in $icon-names {
+  .#{$class-prefix}#{$icon-name} {
+    background-image: url('#{$url}#{$icon-name}#{$extension}');
+  }
+}

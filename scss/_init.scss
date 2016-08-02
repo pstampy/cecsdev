@@ -1,0 +1,13 @@
+//
+// Initialization partial
+//
+
+// Allows us to set variables before a library sets its !default value.
+@import "variables";
+
+// Add Compass
+// @import 'compass';
+@import "rgbapng";
+
+// Add our mixins
+// @import 'library/mixin-name';

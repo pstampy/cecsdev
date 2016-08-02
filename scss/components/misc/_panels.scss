@@ -1,0 +1,101 @@
+.panels-cecs-box-style-alt {
+	.box {
+		h2.pane-title {
+			text-transform: initial;
+			font-weight: bold;
+			font-size: 1em;
+		}
+	}
+	.pane-content {
+		padding: 0;
+		background-color: #A71930;
+		p {
+			margin: 0;
+			padding: 5px 5px 5px 7px;
+			background-color: #A71930;
+			line-height: 1.4em;
+			color: #FFF;
+		}
+		ul {
+			padding-left: 0;
+			margin: 0;
+			li {
+				list-style: none;
+				&:hover,
+				&:focus {
+					background-color: #D38C98;
+					a,
+					a:after {
+						color: #FFF;
+					}
+				}
+				a {
+					text-decoration: none;
+					display: block;
+					padding: 10px 20px 10px 10px;
+					margin: 0;
+					border-top: solid 1px #FFF;
+					color: #fff;
+					&:after {
+						content: "»";
+						font-size: 1.5em;
+						float: right;
+						color: #FFF;
+					}
+				}
+			}
+		}
+	}
+}
+
+.panels-anu-collapsible-box-style-alt {
+       .box {
+                h2.pane-title {
+                        text-transform: initial;
+                        font-weight: bold;
+                        font-size: 1em;
+                }
+        }
+        .pane-content {
+                padding: 0;
+                background-color: #A71930;
+                p {
+                        margin: 0;
+                        padding: 5px 5px 5px 7px;
+                        background-color: #333333;
+                        line-height: 1.4em;
+                        color: #FFF;
+                }
+                ul {
+                        padding-left: 0;
+                        margin: 0;
+                        li {
+                                list-style: none;
+                                &:hover,
+                                &:focus {
+                                        background-color: #666666;
+                                        a,
+                                        a:after {
+                                                color: #FFF;
+                                        }
+                                }
+                                a {
+                                        text-decoration: none;
+                                        display: block;
+                                        padding: 10px 20px 10px 10px;
+                                        margin: 0;
+                                        border-top: solid 1px #FFF;
+                                        color: #fff;
+                                        &:after {
+                                                content: "»";
+                                                font-size: 1.5em;
+                                                float: right;
+                                                color: #FFF;
+                                        }
+                                }
+                        }
+                }
+        }
+}
+
+

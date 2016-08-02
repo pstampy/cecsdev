@@ -1,0 +1,24 @@
+name = CECS theme
+description = ANU CECS theme based on Acton
+screenshot = screenshot.png
+core = 7.x
+base theme = acton
+
+stylesheets[all][] = css/styles.css
+
+scripts[] = js/responsive-tables.js
+
+regions[highlighted] = Highlighted
+regions[header] = Header
+regions[sidebar_first] = Menu sidebar
+regions[sidebar_content] = Content sidebar
+regions[help] = Help
+regions[content_top] = Content top
+regions[content] = Content
+regions[content_bottom] = Content bottom
+regions[band_first] = Page band first
+regions[band_second] = Page band second
+regions[footer] = Footer
+; The following are regions required by Drupal functionality.
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
