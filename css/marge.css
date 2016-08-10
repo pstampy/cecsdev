@@ -1,9 +1,6 @@
 
 #ui-accordion-jquery-ui-filter-panel-0, #ui-accordion-jquery-ui-filter-panel-1, #ui-accordion-jquery-ui-filter-panel-2, #ui-accordion-jquery-ui-filter-panel-3, #ui-accordion-jquery-ui-filter-panel-4{
 	display: block;
-    height: auto;
+    height: auto !important;
 }
 
-p{
-	color: red;
-}
