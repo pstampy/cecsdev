@@ -5,6 +5,7 @@ core = 7.x
 base theme = acton
 
 stylesheets[all][] = css/styles.css
+stylesheets[all][] = css/marge.css
 
 scripts[] = js/responsive-tables.js
 
