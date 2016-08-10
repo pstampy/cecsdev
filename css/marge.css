@@ -1,6 +1,12 @@
 
-#ui-accordion-jquery-ui-filter-panel-0, #ui-accordion-jquery-ui-filter-panel-1, #ui-accordion-jquery-ui-filter-panel-2, #ui-accordion-jquery-ui-filter-panel-3, #ui-accordion-jquery-ui-filter-panel-4{
+#ui-accordion-jquery-ui-filter-panel-0, #ui-accordion-jquery-ui-filter-panel-1, #ui-accordion-jquery-ui-filter-panel-2, #ui-accordion-jquery-ui-filter-panel-3, #ui-accordion-jquery-ui-filter-panel-4, 
+#ui-accordion-jquery-ui-filter-panel-5, #ui-accordion-jquery-ui-filter-panel-6, #ui-accordion-jquery-ui-filter-panel-7, #ui-accordion-jquery-ui-filter-panel-8, #ui-accordion-jquery-ui-filter-panel-9
+#ui-accordion-jquery-ui-filter-panel-10, #ui-accordion-jquery-ui-filter-panel-11, #ui-accordion-jquery-ui-filter-panel-12, #ui-accordion-jquery-ui-filter-panel-13, #ui-accordion-jquery-ui-filter-panel-14, 
+#ui-accordion-jquery-ui-filter-panel-15, #ui-accordion-jquery-ui-filter-panel-16, #ui-accordion-jquery-ui-filter-panel-17, #ui-accordion-jquery-ui-filter-panel-18, #ui-accordion-jquery-ui-filter-panel-19{
 	display: block;
     height: auto !important;
 }
 
+#accordion .ui-accordion-header {
+    margin:0;
+}
