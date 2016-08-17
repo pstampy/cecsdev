@@ -3,13 +3,14 @@
 #ui-accordion-jquery-ui-filter-panel-5, #ui-accordion-jquery-ui-filter-panel-6, #ui-accordion-jquery-ui-filter-panel-7, #ui-accordion-jquery-ui-filter-panel-8, #ui-accordion-jquery-ui-filter-panel-9
 #ui-accordion-jquery-ui-filter-panel-10, #ui-accordion-jquery-ui-filter-panel-11, #ui-accordion-jquery-ui-filter-panel-12, #ui-accordion-jquery-ui-filter-panel-13, #ui-accordion-jquery-ui-filter-panel-14, 
 #ui-accordion-jquery-ui-filter-panel-15, #ui-accordion-jquery-ui-filter-panel-16, #ui-accordion-jquery-ui-filter-panel-17, #ui-accordion-jquery-ui-filter-panel-18, #ui-accordion-jquery-ui-filter-panel-19,
-#ui-accordion-jquery-ui-filter--2-header-0 ,#ui-accordion-jquery-ui-filter--2-header-1 ,#ui-accordion-jquery-ui-filter--2-header-2 ,#ui-accordion-jquery-ui-filter--2-header-3 ,
-#ui-accordion-jquery-ui-filter--2-header-4 ,#ui-accordion-jquery-ui-filter--2-header-5 ,#ui-accordion-jquery-ui-filter--2-header-6 ,#ui-accordion-jquery-ui-filter--2-header-7 ,
-#ui-accordion-jquery-ui-filter--2-header-8 ,#ui-accordion-jquery-ui-filter--2-header-9 ,#ui-accordion-jquery-ui-filter--2-header-10 ,#ui-accordion-jquery-ui-filter--2-header-11 ,
-#ui-accordion-jquery-ui-filter--2-header-12 ,#ui-accordion-jquery-ui-filter--2-header-13 ,#ui-accordion-jquery-ui-filter--2-header-14 ,#ui-accordion-jquery-ui-filter--2-header-15 ,
-#ui-accordion-jquery-ui-filter--2-header-16 ,#ui-accordion-jquery-ui-filter--2-header-17 ,#ui-accordion-jquery-ui-filter--2-header-18 ,#ui-accordion-jquery-ui-filter--2-header-19 ,
-#ui-accordion-jquery-ui-filter--2-header-20 ,#ui-accordion-jquery-ui-filter--2-header-21 ,#ui-accordion-jquery-ui-filter--2-header-22 ,#ui-accordion-jquery-ui-filter--2-header-23 ,
-#ui-accordion-jquery-ui-filter--2-header-24 ,#ui-accordion-jquery-ui-filter--2-header-25 ,#ui-accordion-jquery-ui-filter--2-header-26 ,#ui-accordion-jquery-ui-filter--2-header-27
+#ui-accordion-jquery-ui-filter--2-panel-0,#ui-accordion-jquery-ui-filter--2-panel-1,#ui-accordion-jquery-ui-filter--2-panel-2,#ui-accordion-jquery-ui-filter--2-panel-3,
+
+#ui-accordion-jquery-ui-filter--2-panel-4,#ui-accordion-jquery-ui-filter--2-panel-5,#ui-accordion-jquery-ui-filter--2-panel-6,#ui-accordion-jquery-ui-filter--2-panel-7,
+#ui-accordion-jquery-ui-filter--2-panel-8,#ui-accordion-jquery-ui-filter--2-panel-9,#ui-accordion-jquery-ui-filter--2-panel-10,#ui-accordion-jquery-ui-filter--2-panel-11,
+#ui-accordion-jquery-ui-filter--2-panel-12,#ui-accordion-jquery-ui-filter--2-panel-13,#ui-accordion-jquery-ui-filter--2-panel-14,#ui-accordion-jquery-ui-filter--2-panel-15,
+#ui-accordion-jquery-ui-filter--2-panel-16,#ui-accordion-jquery-ui-filter--2-panel-17,#ui-accordion-jquery-ui-filter--2-panel-18,#ui-accordion-jquery-ui-filter--2-panel-19,
+#ui-accordion-jquery-ui-filter--2-panel-20,#ui-accordion-jquery-ui-filter--2-panel-21,#ui-accordion-jquery-ui-filter--2-panel-22,#ui-accordion-jquery-ui-filter--2-panel-23,
+#ui-accordion-jquery-ui-filter--2-panel-24,#ui-accordion-jquery-ui-filter--2-panel-25,#ui-accordion-jquery-ui-filter--2-panel-26,#ui-accordion-jquery-ui-filter--2-panel-27
 {
 	display: block;
     height: auto !important;
